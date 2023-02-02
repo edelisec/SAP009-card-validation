@@ -24,6 +24,9 @@ Nosso projeto é baseado na confirmação de pagamento, que é a seção que apa
 
 O número do cartão de crédito do cliente será validado com o que é conhecido como o algoritmo de Luhn, que também é usado para validar números de telefones e outros. Este algoritmo é baseado na inversão do número do cartão de crédito, todos os números com uma posição par devem ser multiplicados por dois e, se o resultado for igual ou maior que 10, os dígitos do resultado são somados. O número do cartão de crédito será válido se a soma final de todos os números for múltiplo de 10. 
 
+![algoritmo](https://user-images.githubusercontent.com/120527123/216396685-5adf0ef4-2f46-4ec7-845c-c11d289cd6e9.png)
+
+
 ## 2. Experiência do usuário (UX)
 
 O aplicativo web está desenhado para usuários que procuram validar seu cartão de crédito em uma loja virtual, esta solução é integrada para a segurança do comércio eletrônico e dos dados do cliente, desta forma, são obtidas transações on-line seguras e com dados financeiros protegidos.
@@ -46,6 +49,7 @@ As considerações do projeto para realizar a interface do usuário são as segu
 
 ## 5. Protótipo final do projeto
 
+![prototipo](https://user-images.githubusercontent.com/120527123/216397639-4339a43c-df98-4bac-bdb5-d19c5197d45e.png)
 
 ## 6. Desenvolvedora do projeto
 
