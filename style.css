@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+    font-size: 15px;
+    background: rgb(45,36,198);
+    background: linear-gradient(90deg, rgba(45,36,198,1) 2%, rgba(78,191,162,0.9808298319327731) 48%, rgba(0,212,255,1) 100%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    background: white;
+    border-radius: 15px;
+}
+
+h3 {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+.wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid black;
+    border: 15px;
+}
+
+#validation-form h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 13px;
+
+}
+
+.form-option {
+    margin-bottom: 20px;
+}
+
+.form-option label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-option input {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border: 2px solid #c4c4c4;
+    border-radius: 8px;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-option select {
+    width: 97px;
+    height: 45px;
+    padding: 10px;
+    border: 2px solid #c4c4c4;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border: 2px solid #7e8987;
+}
+
+
+select:focus {
+    border: 2px solid #7e8987;
+}
+
+button {
+    font-family: "Poppins";
+    font-size: 16px;
+}
+
+button[type='submit'] {
+    width: 100%;
+    height: 45px;
+    background-color: #63d471;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    transition: all 0.1s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
