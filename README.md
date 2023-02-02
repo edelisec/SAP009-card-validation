@@ -24,7 +24,7 @@ Nosso projeto é baseado na confirmação de pagamento, que é a seção que apa
 
 O número do cartão de crédito do cliente será validado com o que é conhecido como o algoritmo de Luhn, que também é usado para validar números de telefones e outros. Este algoritmo é baseado na inversão do número do cartão de crédito, todos os números com uma posição par devem ser multiplicados por dois e, se o resultado for igual ou maior que 10, os dígitos do resultado são somados. O número do cartão de crédito será válido se a soma final de todos os números for múltiplo de 10. 
 
-<img src="C:\Users\BlueShift\SAP009-card-validation\thumb.png">
+![Algoritmo](https://photos.app.goo.gl/QrtMLqQqewqin5Vh7)
 
 ## 2. Experiência do usuário (UX)
 
@@ -48,7 +48,7 @@ As considerações do projeto para realizar a interface do usuário são as segu
 
 ## 5. Protótipo final do projeto
 
-<img src="C:\Users\BlueShift\Pictures\Screenshots\prototipo.png">
+![Protótipo](https://photos.app.goo.gl/1Yam8UqkgEEPzy9o9)
 
 ## 6. Desenvolvedora do projeto
 
