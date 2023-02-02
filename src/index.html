@@ -3,41 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>Card Validation</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <h3>CONFIRMAR PAGAMENTO</h3>
-    <form>
-      <label for="owner">Nome e Sobrenome:</label>
-      <input type="text" id="owner" placeholder="Nome que esta no cartão" required>
-      <label for='card-number'>Número de Cartão (Use Apenas 0 - 9):</label>
-      <input type='text' id='card-number' placeholder="Ingrese o número de seu cartão" required>
-      <label for='cvv'>CVV:</label>
-      <input type="text" id='cvv' placeholder="XXX" required>
-      <label for='validade'>Validade:</label>
-      <select id='validade' required>
-        <option value='01'>Janeiro</option>
-        <option value='02'>Fevereiro</option>
-        <option value='03'>Março</option>
-        <option value='04'>Abril</option>
-        <option value='05'>Maio</option>
-        <option value='06'>Junho</option>
-        <option value='07'>Julio</option>
-        <option value='08'>Agosto</option>
-        <option value='09'>Setembro</option>
-        <option value='10'>Outubro</option>
-        <option value='11'>Novembro</option>
-        <option value='12'>Dezembro</option>
-      </select>
-      <select>
-        <option value="23"> 2023</option>
-        <option value="24"> 2024</option>
-        <option value="25"> 2025</option>
-        <option value="26"> 2026</option>
-        <option value="27"> 2027</option>
-        <option value="28"> 2028</option>
-      </select>
-    </form>
+    <div class="wrapper">
+      <form id="validation-form">
+        <h3>CONFIRMAR PAGAMENTO</h3>
+        <div class="form-option">
+          <label for="card-number">Número de Cartão (Use Apenas 0 - 9):</label>
+          <input type="text" id="card-number" name="card-number" placeholder="Digite o número do seu cartão" min="16" max="16" required>
+        </div>
+        <br>
+        <div class="form-option">
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" name="cvv" placeholder="Ex. 123" required>
+        </div>
+        <br>
+        <div class="form-option">
+          <label for="validade">Validade:</label>
+          <select id="validade" name="validade" required>
+            <option value="01">Janeiro</option>
+            <option value="02">Fevereiro</option>
+            <option value="03">Março</option>
+            <option value="04">Abril</option>
+            <option value="05">Maio</option>
+            <option value="06">Junho</option>
+            <option value="07">Julio</option>
+            <option value="08">Agosto</option>
+            <option value="09">Setembro</option>
+            <option value="10">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+          </select>
+          <select>
+            <option value="23"> 2023</option>
+            <option value="24"> 2024</option>
+            <option value="25"> 2025</option>
+            <option value="26"> 2026</option>
+            <option value="27"> 2027</option>
+            <option value="28"> 2028</option>
+          </select>
+        </div>
+        <br>
+        <button type="submit" id="btn">Validar</button>
+        <p id="result"></p>  
+      </form>
+    </div>
     <header></header>
     <main></main>
     <footer></footer>
